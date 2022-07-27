@@ -1,4 +1,4 @@
-input.onButtonPressed(Button.A, function () {
+basic.forever(function () {
     basic.showNumber(input.temperature())
     basic.pause(100)
     if (input.temperature() < 10) {
